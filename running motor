@@ -1,0 +1,18 @@
+#include <MotorDriver.h>
+
+
+MotorDriver m;
+
+
+void setup()
+{
+  
+}
+
+
+void loop()
+{
+
+m.motor(1,FORWARD,600);
+m.motor(2,FORWARD,600);
+}
